@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #E8DAB2;
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+header {
+    height: 100vh;
+    width: 940px;
+    position: relative;
+}
+
+.titulo {
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+}
+
+.-bem-vindo {
+    font-style: italic;
+    position: absolute;
+    top: 350px;
+    font-size: 26px;
+}
+
+.-petshop {
+    font-size: 52px;
+    margin: 0;
+}
+
+.entrada img {
+    height: 192px;
+    width: 370px;
+    position: absolute;
+    top: 300px;
+    left: 570px;
+}
+
+main {
+    width: 880px;
+    padding: 34px 24px 10px 24px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: -1px 0px 15px 1px rgba(66,66,66,0.4);
+}
+
+main h2 {
+    margin: 0;
+}
+
+article p {
+    line-height: 24px;
+}
+
+.titulo2 {
+    font-size: 30px;
+}
+
+.imagem-article {
+    border-radius: 25px;
+    width: calc(100% - 30px);
+    align-items: center;
+    padding: 15px 15px 0px 15px;
+}
+
+.video {
+    margin: 30px 30px 0px 30px;
+}
+
+footer {
+    width: 100%;
+    left: 0;
+    padding: 16px;
+    height: 50px;
+    background-color: #090909;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: #35b1d2;
+}
+
+.p-footer {
+    text-align: end;
+    margin-right: 50px;
+
+}
